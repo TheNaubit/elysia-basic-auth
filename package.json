@@ -1,6 +1,6 @@
 {
   "name": "@eelkevdbos/elysia-basic-auth",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Basic auth for Elysia.js",
   "repository": "https://github.com/eelkevdbos/elysia-basic-auth",
   "author": {
@@ -9,7 +9,8 @@
     "email": "eelke@vandenbos.dev"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc --project tsconfig.esm.json"
+    "build": "rm -rf dist && tsc --project tsconfig.esm.json",
+    "prepare": "rm -rf dist && tsc --project tsconfig.esm.json"
   },
   "exports": {
     "require": "./dist/index.js",
