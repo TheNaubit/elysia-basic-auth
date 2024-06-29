@@ -10,7 +10,7 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc --project tsconfig.esm.json",
-    "prepare": "rm -rf dist && bun build ./src/index.ts --outdir dist --target bun --format esm"
+    "prepare": "rm -rf dist && tsc --project tsconfig.esm.json"
   },
   "exports": {
     "require": "./dist/index.js",
